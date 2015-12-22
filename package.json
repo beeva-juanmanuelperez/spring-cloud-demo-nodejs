@@ -1,0 +1,28 @@
+{
+  "name": "clientapi-demo-app",
+  "version": "0.14.0-SNAPSHOT",
+  "description": "Client API node.js demo application",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.10.4",
+    "express-generator": "^4.9.0",
+    "express-session": "^1.9.3",
+    "properties-reader": "0.0.7",
+    "restify": "^2.8.3",
+    "serve-favicon": "^2.1.7",
+    "swig": "^1.4.2",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Info: tests will be implemented shortly\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.digitalservices.es:clientapi/clientapi-demo-app.git"
+  },
+  "author": "BBVA Open Platform Development Team",
+  "license": "ISC"
+}
