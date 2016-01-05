@@ -10,7 +10,7 @@ appJs.app.route('/').get(function(req, res) {
     var age;
     var uuid;
 
-    // TODO Invocation to person microservice
+    // Invocation to person microservice
     appJs.restClient.get(
         {
             "path": "/microservice-person"
@@ -23,6 +23,7 @@ appJs.app.route('/').get(function(req, res) {
                 age = "Unknown";
                 uuid = "Unknown";
             } else {
+                util.log(util.format("Successfully invoked person microservice at %s%s", appJs.restClient.url.host, reqRemote.path));
                 name = data.name;
                 surname = data.surname;
                 age = data.age;
